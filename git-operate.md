@@ -29,6 +29,7 @@
 查看提交历史
   
 	git log			以便确定要回退到那个版本
+	git log --pretty=oneline  查看版本简版
 
 查看命令历史
 
