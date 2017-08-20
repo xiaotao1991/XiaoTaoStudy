@@ -1,0 +1,1100 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>python.html</title>
+  <meta name="generator" content="Haroopad 0.13.1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>div.oembedall-githubrepos{border:1px solid #DDD;border-radius:4px;list-style-type:none;margin:0 0 10px;padding:8px 10px 0;font:13.34px/1.4 helvetica,arial,freesans,clean,sans-serif;width:452px;background-color:#fff}div.oembedall-githubrepos .oembedall-body{background:-moz-linear-gradient(center top,#FAFAFA,#EFEFEF);background:-webkit-gradient(linear,left top,left bottom,from(#FAFAFA),to(#EFEFEF));border-bottom-left-radius:4px;border-bottom-right-radius:4px;border-top:1px solid #EEE;margin-left:-10px;margin-top:8px;padding:5px 10px;width:100%}div.oembedall-githubrepos h3{font-size:14px;margin:0;padding-left:18px;white-space:nowrap}div.oembedall-githubrepos p.oembedall-description{color:#444;font-size:12px;margin:0 0 3px}div.oembedall-githubrepos p.oembedall-updated-at{color:#888;font-size:11px;margin:0}div.oembedall-githubrepos ul.oembedall-repo-stats{border:none;float:right;font-size:11px;font-weight:700;padding-left:15px;position:relative;z-index:5;margin:0}div.oembedall-githubrepos ul.oembedall-repo-stats li{border:none;color:#666;display:inline-block;list-style-type:none;margin:0!important}div.oembedall-githubrepos ul.oembedall-repo-stats li a{background-color:transparent;border:none;color:#666!important;background-position:5px -2px;background-repeat:no-repeat;border-left:1px solid #DDD;display:inline-block;height:21px;line-height:21px;padding:0 5px 0 23px}div.oembedall-githubrepos ul.oembedall-repo-stats li:first-child a{border-left:medium none;margin-right:-3px}div.oembedall-githubrepos ul.oembedall-repo-stats li a:hover{background:5px -27px no-repeat #4183C4;color:#FFF!important;text-decoration:none}div.oembedall-githubrepos ul.oembedall-repo-stats li:first-child a:hover{border-bottom-left-radius:3px;border-top-left-radius:3px}ul.oembedall-repo-stats li:last-child a:hover{border-bottom-right-radius:3px;border-top-right-radius:3px}span.oembedall-closehide{background-color:#aaa;border-radius:2px;cursor:pointer;margin-right:3px}div.oembedall-container{margin-top:5px;text-align:left}.oembedall-ljuser{font-weight:700}.oembedall-ljuser img{vertical-align:bottom;border:0;padding-right:1px}.oembedall-stoqembed{border-bottom:1px dotted #999;float:left;overflow:hidden;width:730px;line-height:1;background:#FFF;color:#000;font-family:Arial,Liberation Sans,DejaVu Sans,sans-serif;font-size:80%;text-align:left;margin:0;padding:0}.oembedall-stoqembed a{color:#07C;text-decoration:none;margin:0;padding:0}.oembedall-stoqembed a:hover{text-decoration:underline}.oembedall-stoqembed a:visited{color:#4A6B82}.oembedall-stoqembed h3{font-family:Trebuchet MS,Liberation Sans,DejaVu Sans,sans-serif;font-size:130%;font-weight:700;margin:0;padding:0}.oembedall-stoqembed .oembedall-reputation-score{color:#444;font-size:120%;font-weight:700;margin-right:2px}.oembedall-stoqembed .oembedall-user-info{height:35px;width:185px}.oembedall-stoqembed .oembedall-user-info .oembedall-user-gravatar32{float:left;height:32px;width:32px}.oembedall-stoqembed .oembedall-user-info .oembedall-user-details{float:left;margin-left:5px;overflow:hidden;white-space:nowrap;width:145px}.oembedall-stoqembed .oembedall-question-hyperlink{font-weight:700}.oembedall-stoqembed .oembedall-stats{background:#EEE;margin:0 0 0 7px;padding:4px 7px 6px;width:58px}.oembedall-stoqembed .oembedall-statscontainer{float:left;margin-right:8px;width:86px}.oembedall-stoqembed .oembedall-votes{color:#555;padding:0 0 7px;text-align:center}.oembedall-stoqembed .oembedall-vote-count-post{font-size:240%;color:#808185;display:block;font-weight:700}.oembedall-stoqembed .oembedall-views{color:#999;padding-top:4px;text-align:center}.oembedall-stoqembed .oembedall-status{margin-top:-3px;padding:4px 0;text-align:center;background:#75845C;color:#FFF}.oembedall-stoqembed .oembedall-status strong{color:#FFF;display:block;font-size:140%}.oembedall-stoqembed .oembedall-summary{float:left;width:635px}.oembedall-stoqembed .oembedall-excerpt{line-height:1.2;margin:0;padding:0 0 5px}.oembedall-stoqembed .oembedall-tags{float:left;line-height:18px}.oembedall-stoqembed .oembedall-tags a:hover{text-decoration:none}.oembedall-stoqembed .oembedall-post-tag{background-color:#E0EAF1;border-bottom:1px solid #3E6D8E;border-right:1px solid #7F9FB6;color:#3E6D8E;font-size:90%;line-height:2.4;margin:2px 2px 2px 0;padding:3px 4px;text-decoration:none;white-space:nowrap}.oembedall-stoqembed .oembedall-post-tag:hover{background-color:#3E6D8E;border-bottom:1px solid #37607D;border-right:1px solid #37607D;color:#E0EAF1}.oembedall-stoqembed .oembedall-fr{float:right}.oembedall-stoqembed .oembedall-statsarrow{background-image:url(http://cdn.sstatic.net/stackoverflow/img/sprites.png?v=3);background-repeat:no-repeat;overflow:hidden;background-position:0 -435px;float:right;height:13px;margin-top:12px;width:7px}.oembedall-facebook1{border:1px solid #1A3C6C;padding:0;font:13.34px/1.4 verdana;width:500px}.oembedall-facebook2{background-color:#627add}.oembedall-facebook2 a{color:#e8e8e8;text-decoration:none}.oembedall-facebookBody{background-color:#fff;vertical-align:top;padding:5px}.oembedall-facebookBody .contents{display:inline-block;width:100%}.oembedall-facebookBody div img{float:left;margin-right:5px}div.oembedall-lanyard{-webkit-box-shadow:none;-webkit-transition-delay:0s;-webkit-transition-duration:.4000000059604645s;-webkit-transition-property:width;-webkit-transition-timing-function:cubic-bezier(0.42,0,.58,1);background-attachment:scroll;background-clip:border-box;background-color:transparent;background-image:none;background-origin:padding-box;border-width:0;box-shadow:none;color:#112644;display:block;float:left;font-family:'Trebuchet MS',Trebuchet,sans-serif;font-size:16px;height:253px;line-height:19px;margin:0;max-width:none;min-height:0;outline:#112644 0;overflow-x:visible;overflow-y:visible;padding:0;position:relative;text-align:left;vertical-align:baseline;width:804px}div.oembedall-lanyard .tagline{font-size:1.5em}div.oembedall-lanyard .wrapper{overflow:hidden;clear:both}div.oembedall-lanyard .split{float:left;display:inline}div.oembedall-lanyard .prominent-place .flag:active,div.oembedall-lanyard .prominent-place .flag:focus,div.oembedall-lanyard .prominent-place .flag:hover,div.oembedall-lanyard .prominent-place .flag:link,div.oembedall-lanyard .prominent-place .flag:visited{float:left;display:block;width:48px;height:48px;position:relative;top:-5px;margin-right:10px}div.oembedall-lanyard .place-context{font-size:.889em}div.oembedall-lanyard .prominent-place .sub-place{display:block}div.oembedall-lanyard .prominent-place{font-size:1.125em;line-height:1.1em;font-weight:400}div.oembedall-lanyard .main-date{color:#8CB4E0;font-weight:700;line-height:1.1}div.oembedall-lanyard .first{width:48.57%;margin:0 0 0 2.857%}.mermaid .label{color:#333}.node circle,.node polygon,.node rect{fill:#cde498;stroke:#13540c;stroke-width:1px}.edgePath .path{stroke:green;stroke-width:1.5px}.cluster rect{fill:#cdffb2;rx:40;stroke:#6eaa49;stroke-width:1px}.cluster text{fill:#333}.actor{stroke:#13540c;fill:#cde498}text.actor{fill:#000;stroke:none}.actor-line{stroke:grey}.messageLine0{stroke-width:1.5;stroke-dasharray:"2 2";marker-end:"url(#arrowhead)";stroke:#333}.messageLine1{stroke-width:1.5;stroke-dasharray:"2 2";stroke:#333}#arrowhead{fill:#333}#crosshead path{fill:#333!important;stroke:#333!important}.messageText{fill:#333;stroke:none}.labelBox{stroke:#326932;fill:#cde498}.labelText,.loopText{fill:#000;stroke:none}.loopLine{stroke-width:2;stroke-dasharray:"2 2";marker-end:"url(#arrowhead)";stroke:#326932}.note{stroke:#6eaa49;fill:#fff5ad}.noteText{fill:#000;stroke:none;font-family:'trebuchet ms',verdana,arial;font-size:14px}.section{stroke:none;opacity:.2}.section0,.section2{fill:#6eaa49}.section1,.section3{fill:#fff;opacity:.2}.sectionTitle0,.sectionTitle1,.sectionTitle2,.sectionTitle3{fill:#333}.sectionTitle{text-anchor:start;font-size:11px;text-height:14px}.grid .tick{stroke:lightgrey;opacity:.3;shape-rendering:crispEdges}.grid path{stroke-width:0}.today{fill:none;stroke:red;stroke-width:2px}.task{stroke-width:2}.taskText{text-anchor:middle;font-size:11px}.taskTextOutsideRight{fill:#000;text-anchor:start;font-size:11px}.taskTextOutsideLeft{fill:#000;text-anchor:end;font-size:11px}.taskText0,.taskText1,.taskText2,.taskText3{fill:#fff}.task0,.task1,.task2,.task3{fill:#487e3a;stroke:#13540c}.taskTextOutside0,.taskTextOutside1,.taskTextOutside2,.taskTextOutside3{fill:#000}.active0,.active1,.active2,.active3{fill:#cde498;stroke:#13540c}.activeText0,.activeText1,.activeText2,.activeText3{fill:#000!important}.done0,.done1,.done2,.done3{stroke:grey;fill:lightgrey;stroke-width:2}.doneText0,.doneText1,.doneText2,.doneText3{fill:#000!important}.crit0,.crit1,.crit2,.crit3{stroke:#f88;fill:red;stroke-width:2}.activeCrit0,.activeCrit1,.activeCrit2,.activeCrit3{stroke:#f88;fill:#cde498;stroke-width:2}.doneCrit0,.doneCrit1,.doneCrit2,.doneCrit3{stroke:#f88;fill:lightgrey;stroke-width:2;cursor:pointer;shape-rendering:crispEdges}.activeCritText0,.activeCritText1,.activeCritText2,.activeCritText3,.doneCritText0,.doneCritText1,.doneCritText2,.doneCritText3{fill:#000!important}.titleText{text-anchor:middle;font-size:18px;fill:#000}text{font-family:'trebuchet ms',verdana,arial;font-size:14px}html{height:100%}body{margin:0!important;padding:5px 20px 26px!important;background-color:#fff;font-family:"Lucida Grande","Segoe UI","Apple SD Gothic Neo","Malgun Gothic","Lucida Sans Unicode",Helvetica,Arial,sans-serif;font-size:.9em;overflow-x:hidden;overflow-y:auto}br,h1,h2,h3,h4,h5,h6{clear:both}hr.page{background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAECAYAAACtBE5DAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBNYWNpbnRvc2giIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OENDRjNBN0E2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OENDRjNBN0I2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo4Q0NGM0E3ODY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo4Q0NGM0E3OTY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PqqezsUAAAAfSURBVHjaYmRABcYwBiM2QSA4y4hNEKYDQxAEAAIMAHNGAzhkPOlYAAAAAElFTkSuQmCC) repeat-x;border:0;height:3px;padding:0}hr.underscore{border-top-style:dashed!important}body >:first-child{margin-top:0!important}img.plugin{box-shadow:0 1px 3px rgba(0,0,0,.1);border-radius:3px}iframe{border:0}figure{-webkit-margin-before:0;-webkit-margin-after:0;-webkit-margin-start:0;-webkit-margin-end:0}kbd{border:1px solid #aaa;-moz-border-radius:2px;-webkit-border-radius:2px;border-radius:2px;-moz-box-shadow:1px 2px 2px #ddd;-webkit-box-shadow:1px 2px 2px #ddd;box-shadow:1px 2px 2px #ddd;background-color:#f9f9f9;background-image:-moz-linear-gradient(top,#eee,#f9f9f9,#eee);background-image:-o-linear-gradient(top,#eee,#f9f9f9,#eee);background-image:-webkit-linear-gradient(top,#eee,#f9f9f9,#eee);background-image:linear-gradient(top,#eee,#f9f9f9,#eee);padding:1px 3px;font-family:inherit;font-size:.85em}.oembeded .oembed_photo{display:inline-block}img[data-echo]{margin:25px 0;width:100px;height:100px;background:url(../img/ajax.gif) center center no-repeat #fff}.spinner{display:inline-block;width:10px;height:10px;margin-bottom:-.1em;border:2px solid rgba(0,0,0,.5);border-top-color:transparent;border-radius:100%;-webkit-animation:spin 1s infinite linear;animation:spin 1s infinite linear}.spinner:after{content:'';display:block;width:0;height:0;position:absolute;top:-6px;left:0;border:4px solid transparent;border-bottom-color:rgba(0,0,0,.5);-webkit-transform:rotate(45deg);transform:rotate(45deg)}@-webkit-keyframes spin{to{-webkit-transform:rotate(360deg)}}@keyframes spin{to{transform:rotate(360deg)}}p.toc{margin:0!important}p.toc ul{padding-left:10px}p.toc>ul{padding:10px;margin:0 10px;display:inline-block;border:1px solid #ededed;border-radius:5px}p.toc li,p.toc ul{list-style-type:none}p.toc li{width:100%;padding:0;overflow:hidden}p.toc li a::after{content:"."}p.toc li a:before{content:"• "}p.toc h5{text-transform:uppercase}p.toc .title{float:left;padding-right:3px}p.toc .number{margin:0;float:right;padding-left:3px;background:#fff;display:none}input.task-list-item{margin-left:-1.62em}.markdown{font-family:"Hiragino Sans GB","Microsoft YaHei",STHeiti,SimSun,"Lucida Grande","Lucida Sans Unicode","Lucida Sans",'Segoe UI',AppleSDGothicNeo-Medium,'Malgun Gothic',Verdana,Tahoma,sans-serif;padding:20px}.markdown a{text-decoration:none;vertical-align:baseline}.markdown a:hover{text-decoration:underline}.markdown h1{font-size:2.2em;font-weight:700;margin:1.5em 0 1em}.markdown h2{font-size:1.8em;font-weight:700;margin:1.275em 0 .85em}.markdown h3{font-size:1.6em;font-weight:700;margin:1.125em 0 .75em}.markdown h4{font-size:1.4em;font-weight:700;margin:.99em 0 .66em}.markdown h5{font-size:1.2em;font-weight:700;margin:.855em 0 .57em}.markdown h6{font-size:1em;font-weight:700;margin:.75em 0 .5em}.markdown h1+p,.markdown h1:first-child,.markdown h2+p,.markdown h2:first-child,.markdown h3+p,.markdown h3:first-child,.markdown h4+p,.markdown h4:first-child,.markdown h5+p,.markdown h5:first-child,.markdown h6+p,.markdown h6:first-child{margin-top:0}.markdown hr{border:1px solid #ccc}.markdown p{margin:1em 0;word-wrap:break-word}.markdown ol{list-style-type:decimal}.markdown li{display:list-item;line-height:1.4em}.markdown blockquote{margin:1em 20px}.markdown blockquote>:first-child{margin-top:0}.markdown blockquote>:last-child{margin-bottom:0}.markdown blockquote cite:before{content:'\2014 \00A0'}.markdown .code{border-radius:3px;word-wrap:break-word}.markdown pre{border-radius:3px;word-wrap:break-word;border:1px solid #ccc;overflow:auto;padding:.5em}.markdown pre code{border:0;display:block}.markdown pre>code{font-family:Consolas,Inconsolata,Courier,monospace;font-weight:700;white-space:pre;margin:0}.markdown code{border-radius:3px;word-wrap:break-word;border:1px solid #ccc;padding:0 5px;margin:0 2px}.markdown img{max-width:100%}.markdown mark{color:#000;background-color:#fcf8e3}.markdown table{padding:0;border-collapse:collapse;border-spacing:0;margin-bottom:16px}.markdown table tr td,.markdown table tr th{border:1px solid #ccc;margin:0;padding:6px 13px}.markdown table tr th{font-weight:700}.markdown table tr th>:first-child{margin-top:0}.markdown table tr th>:last-child{margin-bottom:0}.markdown table tr td>:first-child{margin-top:0}.markdown table tr td>:last-child{margin-bottom:0}@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:300italic,400italic,700italic,400,300,700);.haroopad{padding:20px;color:#222;font-size:15px;font-family:"Roboto Condensed",Tauri,"Hiragino Sans GB","Microsoft YaHei",STHeiti,SimSun,"Lucida Grande","Lucida Sans Unicode","Lucida Sans",'Segoe UI',AppleSDGothicNeo-Medium,'Malgun Gothic',Verdana,Tahoma,sans-serif;background:#fff;line-height:1.6;-webkit-font-smoothing:antialiased}.haroopad a{color:#3269a0}.haroopad a:hover{color:#4183c4}.haroopad h2{border-bottom:1px solid #e6e6e6}.haroopad h6{color:#777}.haroopad hr{border:1px solid #e6e6e6}.haroopad blockquote>code,.haroopad h1>code,.haroopad h2>code,.haroopad h3>code,.haroopad h4>code,.haroopad h5>code,.haroopad h6>code,.haroopad li>code,.haroopad p>code,.haroopad td>code{font-family:Consolas,"Liberation Mono",Menlo,Courier,monospace;font-size:85%;background-color:rgba(0,0,0,.02);padding:.2em .5em;border:1px solid #efefef}.haroopad pre>code{font-size:1em;letter-spacing:-1px;font-weight:700}.haroopad blockquote{border-left:4px solid #e6e6e6;padding:0 15px;color:#777}.haroopad table{background-color:#fafafa}.haroopad table tr td,.haroopad table tr th{border:1px solid #e6e6e6}.haroopad table tr:nth-child(2n){background-color:#f2f2f2}.hljs{display:block;overflow-x:auto;padding:.5em;background:#fdf6e3;color:#657b83;-webkit-text-size-adjust:none}.diff .hljs-header,.hljs-comment,.hljs-doctype,.hljs-javadoc,.hljs-pi,.lisp .hljs-string{color:#93a1a1}.css .hljs-tag,.hljs-addition,.hljs-keyword,.hljs-request,.hljs-status,.hljs-winutils,.method,.nginx .hljs-title{color:#859900}.hljs-command,.hljs-dartdoc,.hljs-hexcolor,.hljs-link_url,.hljs-number,.hljs-phpdoc,.hljs-regexp,.hljs-rules .hljs-value,.hljs-string,.hljs-tag .hljs-value,.tex .hljs-formula{color:#2aa198}.css .hljs-function,.hljs-built_in,.hljs-chunk,.hljs-decorator,.hljs-id,.hljs-identifier,.hljs-localvars,.hljs-title,.vhdl .hljs-literal{color:#268bd2}.hljs-attribute,.hljs-class .hljs-title,.hljs-constant,.hljs-link_reference,.hljs-parent,.hljs-type,.hljs-variable,.lisp .hljs-body,.smalltalk .hljs-number{color:#b58900}.css .hljs-pseudo,.diff .hljs-change,.hljs-attr_selector,.hljs-cdata,.hljs-header,.hljs-pragma,.hljs-preprocessor,.hljs-preprocessor .hljs-keyword,.hljs-shebang,.hljs-special,.hljs-subst,.hljs-symbol,.hljs-symbol .hljs-string{color:#cb4b16}.hljs-deletion,.hljs-important{color:#dc322f}.hljs-link_label{color:#6c71c4}.tex .hljs-formula{background:#eee8d5}.MathJax_Hover_Frame{border-radius:.25em;-webkit-border-radius:.25em;-moz-border-radius:.25em;-khtml-border-radius:.25em;box-shadow:0 0 15px #83A;-webkit-box-shadow:0 0 15px #83A;-moz-box-shadow:0 0 15px #83A;-khtml-box-shadow:0 0 15px #83A;border:1px solid #A6D!important;display:inline-block;position:absolute}.MathJax_Hover_Arrow{position:absolute;width:15px;height:11px;cursor:pointer}#MathJax_About{position:fixed;left:50%;width:auto;text-align:center;border:3px outset;padding:1em 2em;background-color:#DDD;color:#000;cursor:default;font-family:message-box;font-size:120%;font-style:normal;text-indent:0;text-transform:none;line-height:normal;letter-spacing:normal;word-spacing:normal;word-wrap:normal;white-space:nowrap;float:none;z-index:201;border-radius:15px;-webkit-border-radius:15px;-moz-border-radius:15px;-khtml-border-radius:15px;box-shadow:0 10px 20px gray;-webkit-box-shadow:0 10px 20px gray;-moz-box-shadow:0 10px 20px gray;-khtml-box-shadow:0 10px 20px gray;filter:progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}.MathJax_Menu{position:absolute;background-color:#fff;color:#000;width:auto;padding:2px;border:1px solid #CCC;margin:0;cursor:default;font:menu;text-align:left;text-indent:0;text-transform:none;line-height:normal;letter-spacing:normal;word-spacing:normal;word-wrap:normal;white-space:nowrap;float:none;z-index:201;box-shadow:0 10px 20px gray;-webkit-box-shadow:0 10px 20px gray;-moz-box-shadow:0 10px 20px gray;-khtml-box-shadow:0 10px 20px gray;filter:progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}.MathJax_MenuItem{padding:2px 2em;background:0 0}.MathJax_MenuArrow{position:absolute;right:.5em;color:#666}.MathJax_MenuActive .MathJax_MenuArrow{color:#fff}.MathJax_MenuArrow.RTL{left:.5em;right:auto}.MathJax_MenuCheck{position:absolute;left:.7em}.MathJax_MenuCheck.RTL{right:.7em;left:auto}.MathJax_MenuRadioCheck{position:absolute;left:1em}.MathJax_MenuRadioCheck.RTL{right:1em;left:auto}.MathJax_MenuLabel{padding:2px 2em 4px 1.33em;font-style:italic}.MathJax_MenuRule{border-top:1px solid #CCC;margin:4px 1px 0}.MathJax_MenuDisabled{color:GrayText}.MathJax_MenuActive{background-color:Highlight;color:HighlightText}.MathJax_Menu_Close{position:absolute;width:31px;height:31px;top:-15px;left:-15px}#MathJax_Zoom{position:absolute;background-color:#F0F0F0;overflow:auto;display:block;z-index:301;padding:.5em;border:1px solid #000;margin:0;font-weight:400;font-style:normal;text-align:left;text-indent:0;text-transform:none;line-height:normal;letter-spacing:normal;word-spacing:normal;word-wrap:normal;white-space:nowrap;float:none;box-shadow:5px 5px 15px #AAA;-webkit-box-shadow:5px 5px 15px #AAA;-moz-box-shadow:5px 5px 15px #AAA;-khtml-box-shadow:5px 5px 15px #AAA;filter:progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}#MathJax_ZoomOverlay{position:absolute;left:0;top:0;z-index:300;display:inline-block;width:100%;height:100%;border:0;padding:0;margin:0;background-color:#fff;opacity:0;filter:alpha(opacity=0)}#MathJax_ZoomFrame{position:relative;display:inline-block;height:0;width:0}#MathJax_ZoomEventTrap{position:absolute;left:0;top:0;z-index:302;display:inline-block;border:0;padding:0;margin:0;background-color:#fff;opacity:0;filter:alpha(opacity=0)}.MathJax_Preview{color:#888}#MathJax_Message{position:fixed;left:1px;bottom:2px;background-color:#E6E6E6;border:1px solid #959595;margin:0;padding:2px 8px;z-index:102;color:#000;font-size:80%;width:auto;white-space:nowrap}#MathJax_MSIE_Frame{position:absolute;top:0;left:0;width:0;z-index:101;border:0;margin:0;padding:0}.MathJax_Error{color:#C00;font-style:italic}footer{position:fixed;font-size:.8em;text-align:right;bottom:0;margin-left:-25px;height:20px;width:100%}</style>
+</head>
+<body class="markdown haroopad">
+<h3 id="python差缺补漏"><a name="python差缺补漏" href="#python差缺补漏"></a>Python差缺补漏</h3><h5 id="模块导入"><a name="模块导入" href="#模块导入"></a>模块导入</h5><pre><code data-origin="<pre><code>    import sys
+    sys.path            #可以列出导入模块的路径
+    #如果需要将其他的模块也想导入其中可以添加到这个路径下
+    sys.path.append('/home')
+
+
+    #如果修改了某个模块的功能，需要刷新里面的调用方法，则需要重新导入
+    from imp import *
+    reload(test)        #test是需要重新导入的模块
+</code></pre>">    import sys
+    sys.path            #可以列出导入模块的路径
+    #如果需要将其他的模块也想导入其中可以添加到这个路径下
+    sys.path.append('/home')
+
+
+    #如果修改了某个模块的功能，需要刷新里面的调用方法，则需要重新导入
+    from imp import *
+    reload(test)        #test是需要重新导入的模块
+</code></pre><h5 id="等号-==-与-is-的区别"><a name="等号-==-与-is-的区别" href="#等号-==-与-is-的区别"></a>等号 == 与 is 的区别</h5><pre><code data-origin="<pre><code>== 用来判断某个变量的值是否相等（内容）
+is 用于判断是否指向同一个东西（地址）
+</code></pre>">== 用来判断某个变量的值是否相等（内容）
+is 用于判断是否指向同一个东西（地址）
+</code></pre><h5 id="深拷贝，浅拷贝"><a name="深拷贝，浅拷贝" href="#深拷贝，浅拷贝"></a>深拷贝，浅拷贝</h5><p>浅拷贝，两个不同的变量指向同一个地址</p><pre><code data-origin="<pre><code>a = [1,2,3]
+b = a
+b就是浅拷贝
+</code></pre>">a = [1,2,3]
+b = a
+b就是浅拷贝
+</code></pre><p>深拷贝<br>内内容一样，但地址不一样，如果的是list，tuple也是同样的创建新的对象，拷贝其内容 </p><pre><code data-origin="<pre><code>import copy
+a = [1,2,3]
+b = copy.deepcopy(a)
+
+copy与deepcopy的区别
+copy是只拷贝第一层
+deepcopy是循环拷贝
+</code></pre>">import copy
+a = [1,2,3]
+b = copy.deepcopy(a)
+
+copy与deepcopy的区别
+copy是只拷贝第一层
+deepcopy是循环拷贝
+</code></pre><h5 id="变量私有化"><a name="变量私有化" href="#变量私有化"></a>变量私有化</h5><p><em>x:单前置下划线，私有化属性或方法，from somemodule import *禁止导入，类对象和子类可以访问<br><strong>xx:双前置下划线，无法在外部直接访问
+</strong>xx__:双前后下划线，用户名字空间的魔法对象或属性<br>XX</em>：单后置下划线，用于避免与python关键字冲突</p><p>但可以使用<br><em>类名_</em>变量名    访问私有变量(类名重组)</p><h5 id="property"><a name="property" href="#property"></a>property</h5><pre><code data-origin="<pre><code>    class Test(object):
+    def __init__(self):
+        self.__num = 100
+
+    def setNum(self, num):
+        self.__num = num
+
+    def getNum(self):
+        return self.__num
+
+    num = property(getNum, setNum)
+
+
+    test = Test()
+    print(test.num)            #100
+
+    test.num = 20
+    print(test.num)            #20
+
+-----------------------------------------------------------
+
+    class Test(object):
+    def __init__(self):
+        self.__num = 100
+
+    @property
+    def num(self):
+        return self.__num
+
+    @num.setter
+    def num(self, num):
+        self.__num = num
+
+    test = Test()
+    print(test.num)
+
+    test.num = 20
+    print(test.num)
+</code></pre>">    class Test(object):
+    def __init__(self):
+        self.__num = 100
+
+    def setNum(self, num):
+        self.__num = num
+
+    def getNum(self):
+        return self.__num
+
+    num = property(getNum, setNum)
+
+
+    test = Test()
+    print(test.num)            #100
+
+    test.num = 20
+    print(test.num)            #20
+
+-----------------------------------------------------------
+
+    class Test(object):
+    def __init__(self):
+        self.__num = 100
+
+    @property
+    def num(self):
+        return self.__num
+
+    @num.setter
+    def num(self, num):
+        self.__num = num
+
+    test = Test()
+    print(test.num)
+
+    test.num = 20
+    print(test.num)
+</code></pre><h5 id="闭包"><a name="闭包" href="#闭包"></a>闭包</h5><pre><code data-origin="<pre><code>def w1(func):
+    def inner():
+        print(&quot;---正在验证权限----&quot;)
+        func()
+
+    return inner
+
+
+def f1():
+    print('----f1----')
+
+
+def f2():
+    print('----f2----')
+
+
+f1 = w1(f1)  # 重命名函数f1
+f2 = w1(f2)  # 重命名函数f2
+
+f1()
+f2()
+
+---正在验证权限----
+----f1----
+---正在验证权限----
+----f2----
+
+
+-----------------------------------------------------------
+def w1(func):
+    def inner():
+        print(&quot;---正在验证权限----&quot;)
+        func()
+
+    return inner
+
+
+@w1
+def f1():
+    print('----f1----')
+
+
+@w1
+def f2():
+    print('----f2----')
+
+
+f1()
+f2()
+
+---正在验证权限----
+----f1----
+---正在验证权限----
+----f2----
+
+---------------- 可以加多个装饰器 -----------------------
+def w1(func):
+    def inner():
+        print(&quot;---正在验证权限----&quot;)
+        func()
+
+    return inner
+
+
+def w2(func):
+    def inner():
+        print(&quot;---正在验证权限2----&quot;)
+        func()
+
+    return inner
+
+
+@w2
+@w1
+def f1():
+    print('----f1----')
+
+
+@w2
+@w1
+def f2():
+    print('----f2----')
+
+
+f1()
+f2()
+
+---正在验证权限2----
+---正在验证权限----
+----f1----
+---正在验证权限2----
+---正在验证权限----
+----f2----
+</code></pre>">def w1(func):
+    def inner():
+        print("---正在验证权限----")
+        func()
+
+    return inner
+
+
+def f1():
+    print('----f1----')
+
+
+def f2():
+    print('----f2----')
+
+
+f1 = w1(f1)  # 重命名函数f1
+f2 = w1(f2)  # 重命名函数f2
+
+f1()
+f2()
+
+---正在验证权限----
+----f1----
+---正在验证权限----
+----f2----
+
+
+-----------------------------------------------------------
+def w1(func):
+    def inner():
+        print("---正在验证权限----")
+        func()
+
+    return inner
+
+
+@w1
+def f1():
+    print('----f1----')
+
+
+@w1
+def f2():
+    print('----f2----')
+
+
+f1()
+f2()
+
+---正在验证权限----
+----f1----
+---正在验证权限----
+----f2----
+
+---------------- 可以加多个装饰器 -----------------------
+def w1(func):
+    def inner():
+        print("---正在验证权限----")
+        func()
+
+    return inner
+
+
+def w2(func):
+    def inner():
+        print("---正在验证权限2----")
+        func()
+
+    return inner
+
+
+@w2
+@w1
+def f1():
+    print('----f1----')
+
+
+@w2
+@w1
+def f2():
+    print('----f2----')
+
+
+f1()
+f2()
+
+---正在验证权限2----
+---正在验证权限----
+----f1----
+---正在验证权限2----
+---正在验证权限----
+----f2----
+</code></pre><h5 id="通用装饰器"><a name="通用装饰器" href="#通用装饰器"></a>通用装饰器</h5><pre><code data-origin="<pre><code>def fun(functionName):
+    def func_in(*args, **kwargs):
+        return functionName(*args, **kwargs)
+
+    return func_in
+</code></pre>">def fun(functionName):
+    def func_in(*args, **kwargs):
+        return functionName(*args, **kwargs)
+
+    return func_in
+</code></pre><h5 id="带有参数的装饰器"><a name="带有参数的装饰器" href="#带有参数的装饰器"></a>带有参数的装饰器</h5><pre><code data-origin="<pre><code>def timefun_arg(pre=&quot;hellow&quot;):
+    def timefun(func):
+        def wrappend():
+            print('----args=%s functiomname = %s' % (pre, func.__name__))
+            return func()
+
+        return wrappend
+
+    return timefun
+
+
+@timefun_arg('xiaotao')
+def foo():
+    print('foo()-----')
+
+
+foo()
+</code></pre>">def timefun_arg(pre="hellow"):
+    def timefun(func):
+        def wrappend():
+            print('----args=%s functiomname = %s' % (pre, func.__name__))
+            return func()
+
+        return wrappend
+
+    return timefun
+
+
+@timefun_arg('xiaotao')
+def foo():
+    print('foo()-----')
+
+
+foo()
+</code></pre><h5 id="作用域"><a name="作用域" href="#作用域"></a>作用域</h5><pre><code data-origin="<pre><code>    globals(全局变量)
+    locals（局部变量）
+
+    LEGB规则
+    locals(局部变量)&amp;gt;enclosing(闭包)&amp;gt;globals（全局变量）&amp;gt;builltins(内建函数)
+</code></pre>">    globals(全局变量)
+    locals（局部变量）
+
+    LEGB规则
+    locals(局部变量)&gt;enclosing(闭包)&gt;globals（全局变量）&gt;builltins(内建函数)
+</code></pre><h5 id="python动态属性"><a name="python动态属性" href="#python动态属性"></a>Python动态属性</h5><p>Python可以动态的给对象添加属性，但不能动态的添加方法</p><pre><code data-origin="<pre><code>    可以使用types
+
+    import types
+
+    def run(self):
+        print('run....')
+
+    p.run = types.MethodType(run,p)
+
+
+    #静态方法
+    @staticmethod
+    def test():
+
+    class P(object):
+        pass
+
+    P.test = test
+
+    P.test()
+
+    #类方法
+    @classmethod
+    def printNum(cls):
+        print('-------cls')
+
+    P.printNum = printNum
+    p.printNum()
+</code></pre>">    可以使用types
+
+    import types
+
+    def run(self):
+        print('run....')
+
+    p.run = types.MethodType(run,p)
+
+
+    #静态方法
+    @staticmethod
+    def test():
+
+    class P(object):
+        pass
+
+    P.test = test
+
+    P.test()
+
+    #类方法
+    @classmethod
+    def printNum(cls):
+        print('-------cls')
+
+    P.printNum = printNum
+    p.printNum()
+</code></pre><h5 id="生成器"><a name="生成器" href="#生成器"></a>生成器</h5><pre><code data-origin="<pre><code>    (x*2 for in range(10))            #注意是()括号
+    next(x)                            #获取下一个
+
+    def creatNum():
+        print('----start-----')
+        a,b=0,1
+        for i in range(5):
+            yield b                    #第二种方式的生成器
+            a,b=b.a+b
+
+
+    #send
+    class Test(object):
+        def test():
+            i = 0
+            while i&amp;lt;5:
+                temp = yield i
+                print(temp)
+                i=i+1
+
+    t = Test()
+    t.__next__()        #0
+    t.__next__()        #None 1
+    t.__next__()        #None 2
+
+    t.send('Hehe')        #hehe 3
+    t.__next__()        #None 4            值只保存一次
+
+    #send与__next__的区别是        可以传值
+</code></pre>">    (x*2 for in range(10))            #注意是()括号
+    next(x)                            #获取下一个
+
+    def creatNum():
+        print('----start-----')
+        a,b=0,1
+        for i in range(5):
+            yield b                    #第二种方式的生成器
+            a,b=b.a+b
+
+
+    #send
+    class Test(object):
+        def test():
+            i = 0
+            while i&lt;5:
+                temp = yield i
+                print(temp)
+                i=i+1
+
+    t = Test()
+    t.__next__()        #0
+    t.__next__()        #None 1
+    t.__next__()        #None 2
+
+    t.send('Hehe')        #hehe 3
+    t.__next__()        #None 4            值只保存一次
+
+    #send与__next__的区别是        可以传值
+</code></pre><h5 id="多任务"><a name="多任务" href="#多任务"></a>多任务</h5><pre><code data-origin="<pre><code>    def test1():
+        while True:
+            print(&quot;--1--&quot;)
+            yield None
+
+    def test2():
+        while True:
+            print(&quot;--2--&quot;)
+            yield None
+
+    t1 = test1()
+    t2 = test2()
+
+    while True:
+        t1.__next()__
+        t2.__next()__
+</code></pre>">    def test1():
+        while True:
+            print("--1--")
+            yield None
+
+    def test2():
+        while True:
+            print("--2--")
+            yield None
+
+    t1 = test1()
+    t2 = test2()
+
+    while True:
+        t1.__next()__
+        t2.__next()__
+</code></pre><h5 id="类装饰器"><a name="类装饰器" href="#类装饰器"></a>类装饰器</h5><pre><code data-origin="<pre><code>class Test(object):
+    def __init__(self, func):
+        print('--初始化---')
+        print('--func name is %s ' % func.__name__)
+        self.__func = func
+
+    def __call__(self, *args, **kwargs):
+        print('---装饰器中的功能---')
+        self.__func()
+
+
+@Test                    #相当于    Test(test)
+def test():                #相当于    test = Test(test)
+    print('--test--')
+
+test()
+</code></pre>">class Test(object):
+    def __init__(self, func):
+        print('--初始化---')
+        print('--func name is %s ' % func.__name__)
+        self.__func = func
+
+    def __call__(self, *args, **kwargs):
+        print('---装饰器中的功能---')
+        self.__func()
+
+
+@Test                    #相当于    Test(test)
+def test():                #相当于    test = Test(test)
+    print('--test--')
+
+test()
+</code></pre><h5 id="元类（创建class）"><a name="元类（创建class）" href="#元类（创建class）"></a>元类（创建class）</h5><p>type动态创建类</p><pre><code data-origin="<pre><code>    def printNunm(self):
+    print(&quot;---printNum--%d&quot; % self.num)
+
+
+    Test2 = type('Test2', (), {&quot;num&quot;: 3, &quot;printNunm&quot;: printNunm})  # ()参数   {}属性
+    t = Test2()
+    t.printNunm()
+</code></pre>">    def printNunm(self):
+    print("---printNum--%d" % self.num)
+
+
+    Test2 = type('Test2', (), {"num": 3, "printNunm": printNunm})  # ()参数   {}属性
+    t = Test2()
+    t.printNunm()
+</code></pre><h5 id="垃圾回收"><a name="垃圾回收" href="#垃圾回收"></a>垃圾回收</h5><p>python对小整数的定义是[-5,257)这些整数对象是提前建立好的，不会被垃圾回收，所有位于这个范围内的整数使用的都是同一个对象<br>单个字符共用对象，常驻内存<br>单个单词，不可修改，默认开启intern机制，共用对象，引用计数为0，则销毁</p><p>Gc垃圾回收机制<br>引用计数为主(循环引用解决不了)<br>隔代回收（处理循环引用）:等到一段时间将链上清理引用</p><pre><code data-origin="<pre><code>import gc
+import sys
+
+a = 10
+print(gc.get_threshold())  # 获取gc模块中自动执行垃圾回收的频率
+print(gc.get_count())  # 获取当前自动执行垃圾回收的计数器，返回一个长度为3的列表
+print(sys.getrefcount(a))  # 查看引用计数
+
+gc.collect()  # 显示的清理垃圾
+gc.garbage  # 显示垃圾被清理的对象
+</code></pre>">import gc
+import sys
+
+a = 10
+print(gc.get_threshold())  # 获取gc模块中自动执行垃圾回收的频率
+print(gc.get_count())  # 获取当前自动执行垃圾回收的计数器，返回一个长度为3的列表
+print(sys.getrefcount(a))  # 查看引用计数
+
+gc.collect()  # 显示的清理垃圾
+gc.garbage  # 显示垃圾被清理的对象
+</code></pre><h5 id="内建属性"><a name="内建属性" href="#内建属性"></a>内建属性</h5><p><strong>init</strong>                #构造初始化函数<br><strong>del</strong>                    #生成实例所需属性<br><strong>new</strong>                    #实例所在的类<br><strong>str</strong>                    #实例字符串表示，可读性<br><strong>del</strong>                    #删除实例<br><strong>getattrribute</strong>        #属性访问器<br><strong>bases</strong>                #类所有父类构成元素</p><p>坑</p><pre><code data-origin="<pre><code>class Person(object):
+    def __getattribute__(self, item):
+        print('---test---')
+        if item.startswith('a'):
+            return 'hahaha'
+        else:
+            return self.test
+
+    def test(self):
+        print('heihei')
+
+
+t = Person()
+t.a  # 正常打印   hahaha
+t.b  # 崩溃
+
+原因是当执行t.b时，会执行代码self.test的值，因为self此时就是t这个对象，这样就产生了递归调用
+这个程序会无休止的执行下去，最终吃光内存，程序崩溃
+</code></pre>">class Person(object):
+    def __getattribute__(self, item):
+        print('---test---')
+        if item.startswith('a'):
+            return 'hahaha'
+        else:
+            return self.test
+
+    def test(self):
+        print('heihei')
+
+
+t = Person()
+t.a  # 正常打印   hahaha
+t.b  # 崩溃
+
+原因是当执行t.b时，会执行代码self.test的值，因为self此时就是t这个对象，这样就产生了递归调用
+这个程序会无休止的执行下去，最终吃光内存，程序崩溃
+</code></pre><h5 id="内建方法"><a name="内建方法" href="#内建方法"></a>内建方法</h5><p>range()<br>map(lambda x,y : x+y,[1,2,3],[4,5,6])            #[5,7,9]<br>filter(lambda x:x%2,[1,2,3,4])                    #[1,3]<br>reduce(lambda x,y:x+y,[‘aa’,’bb’,’cc’],’dd’)    #’ddaabbcc’<br>sorted(iterable,cmp=None,key=None,reverse=False)</p><h5 id="偏函数"><a name="偏函数" href="#偏函数"></a>偏函数</h5><pre><code data-origin="<pre><code># 偏函数
+import functools
+
+
+def showArgs(*args, **kw):
+    print(args)
+    print(kw)
+
+
+p1 = functools.partial(showArgs, 1, 2, 3)
+p1()  # (1,2,3) None
+p1(5)  # (1, 2, 3, 5)
+</code></pre>"># 偏函数
+import functools
+
+
+def showArgs(*args, **kw):
+    print(args)
+    print(kw)
+
+
+p1 = functools.partial(showArgs, 1, 2, 3)
+p1()  # (1,2,3) None
+p1(5)  # (1, 2, 3, 5)
+</code></pre><h5 id="本地开启服务器"><a name="本地开启服务器" href="#本地开启服务器"></a>本地开启服务器</h5><p>python -m http.server PORT(端口号)</p><h5 id="pdb调试"><a name="pdb调试" href="#pdb调试"></a>pdb调试</h5><p>进入pdb调试模式<br>python -m pdb test1.py    (进入调试模式)</p><p>l             #显示自己代码（—&gt; 表示当前模块运行的位置）<br>n             #执行下一步<br>c             #放开调试(进入下一个d断点）<br>b+数字           #调到指定的位置<br>clear+数字    #清楚指定断点<br>a             #打印所有的形参数据<br>p+变量        #打印指定的变量的值<br>s             #进入函数中<br>r             #快速执行到函数最后一行<br>q             #退出调试</p><h5 id="进程与线程"><a name="进程与线程" href="#进程与线程"></a>进程与线程</h5><p>import os</p><p>ret = os.fork()<br>ret==0        子进程<br>ret&gt;0         父进程</p><p>全局变量在多进程中是互不干扰的</p><p>多个fork</p><pre><code data-origin="<pre><code>import os
+import time
+
+ret = os.fork()
+if ret == 0:
+    print('--1--')
+else:
+    print('--2--')
+
+ret = os.fork()
+if ret == 0:
+    print('--11--')
+else:
+    print('--12--')
+
+
+--1--
+--2--
+--11--
+--12--
+--11--
+--12--
+
+            执行流程大概是
+                 |
+        --1--             --2--
+          |                  |
+   --11--   --12--  --11--   --12--
+</code></pre>">import os
+import time
+
+ret = os.fork()
+if ret == 0:
+    print('--1--')
+else:
+    print('--2--')
+
+ret = os.fork()
+if ret == 0:
+    print('--11--')
+else:
+    print('--12--')
+
+
+--1--
+--2--
+--11--
+--12--
+--11--
+--12--
+
+            执行流程大概是
+                 |
+        --1--             --2--
+          |                  |
+   --11--   --12--  --11--   --12--
+</code></pre><p><strong>Process</strong></p><p>p.is_alive()        判断进程的事例是否还在运行<br>p.start()            开启进程<br>p.join()            阻塞，等待<br>p.terminate()        不管任务是否完成，立即终止<br>p.run()                若果没有给定target阐述，对象调用start()方法是，就将执行对象中的run方法</p><p><strong>自定义Porcess重写run方法</strong></p><p><strong>进程池Pool</strong><br>from multiprocessing import Pool</p><p>Pool.apply_async(需要调用的目标,(传递给目标的参数元祖,))             非阻塞方式<br>Pool.apply(需要调用的目标,(传递给目标的参数元祖,))                阻塞式</p><p>Pool.close()        关闭线程池，不在添加新任务<br>Pool.join()            主进程 创建/添加 任务后，主进程 默认不会等待进程池中的任务执行完后才结束而是当主进程任务做完之后，立马结束，如果这个地方没有join，会导致进程池中的任务不会被执行</p><p><strong>进程间通信</strong><br>Queue.size()                返回当前队列包含消息数量<br>Queue.empty()                如果队列为空，返回True否则False<br>Queue.full()                判断队列是否已经满了<br>Queue.get([block[,time]])   获取队列中的一条消息，然后从队列中移除<br>Queue.get_nowait()<br>Queue.put(item,[block[,timeout]])</p><p>进程池间的通信要使用<br>import multiprocessing import Manger,Pool<br>q = Manger().Queeu()</p><h5 id="多线程-threading"><a name="多线程-threading" href="#多线程-threading"></a>多线程 threading</h5><p>from threading import Thread<br>线程之间共享全局变量</p><p><strong>保证同步的修改变量</strong></p><h1 id="创建锁对象"><a name="创建锁对象" href="#创建锁对象"></a>创建锁对象</h1><p>mutex = threading.lock()</p><h1 id="锁定"><a name="锁定" href="#锁定"></a>锁定</h1><p>mutex.acquire([blocking])<br>blocking如果设置为True，则当前线程会阻塞，直达获取这个锁为止(默认为True)<br>blocking如果设置为False,则当前线程不会阻塞<br>也可以添加超时时间!</p><h1 id="释放"><a name="释放" href="#释放"></a>释放</h1><p>mutex.release()</p><h5 id="生产者与消费者"><a name="生产者与消费者" href="#生产者与消费者"></a>生产者与消费者</h5><p>FIFO 先进先出<br>p2<br>from Queue import Queue<br>p3<br>form queue import Queue</p><p>ThreadLocal  每个线程存有独立的一份变量<br>import threading<br>threading.local()</p><h5 id="异步回调"><a name="异步回调" href="#异步回调"></a>异步回调</h5><pre><code data-origin="<pre><code>from multiprocessing import Pool
+import time
+import os
+
+
+def test():
+    print(&quot;--- 进程池中的进程 --pid=%d,ppid=%d ---&quot; % (os.getpid(), os.getppid()))
+    for i in range(3):
+        print(&quot;---%d---&quot; % i)
+        time.sleep(1)
+    return &quot;Hahaha&quot;
+
+
+def test2(args):
+    print(&quot;---callback func --- pid = %d&quot; % os.getppid())
+    print(&quot;---callback func --- args=%s&quot; % args)
+
+
+def run1():
+    pool = Pool(3)
+    pool.apply_async(func=test, callback=test2)
+    time.sleep(5)
+    print(&quot;---主进程--%d&quot; % os.getpid())
+
+
+if __name__ == &quot;__main__&quot;:
+    run1()
+</code></pre>">from multiprocessing import Pool
+import time
+import os
+
+
+def test():
+    print("--- 进程池中的进程 --pid=%d,ppid=%d ---" % (os.getpid(), os.getppid()))
+    for i in range(3):
+        print("---%d---" % i)
+        time.sleep(1)
+    return "Hahaha"
+
+
+def test2(args):
+    print("---callback func --- pid = %d" % os.getppid())
+    print("---callback func --- args=%s" % args)
+
+
+def run1():
+    pool = Pool(3)
+    pool.apply_async(func=test, callback=test2)
+    time.sleep(5)
+    print("---主进程--%d" % os.getpid())
+
+
+if __name__ == "__main__":
+    run1()
+</code></pre><p>tftp下载器<br>tftp协议:</p><pre><code data-origin="<pre><code>读写请求    |操作码 1/2(RD/WR)|文件名|0|octet|0|
+数据包        |操作码 3(DATA)|块编号|数据(512 Bytes Data)|    #总长度为  2+2+512        516（发过来的数据包少于516 发送完成）
+ACK           |操作码 4(ACK)|块编号|                        #回复确认(按照服务器返回的端口，去回复这个端口)
+ERROR       |操作码 5(ERR)|差错码|差错信息|0|
+</code></pre>">读写请求    |操作码 1/2(RD/WR)|文件名|0|octet|0|
+数据包        |操作码 3(DATA)|块编号|数据(512 Bytes Data)|    #总长度为  2+2+512        516（发过来的数据包少于516 发送完成）
+ACK           |操作码 4(ACK)|块编号|                        #回复确认(按照服务器返回的端口，去回复这个端口)
+ERROR       |操作码 5(ERR)|差错码|差错信息|0|
+</code></pre><pre><code data-origin="<pre><code>tftp下载器代码
+
+from socket import *
+import struct
+import time
+import os
+
+
+def main():
+    downloadFileName = input(&quot;请输入要下载文件名字&quot;)
+    udpsocket = socket(AF_INET, SOCK_DGRAM)
+    # 组装数据
+    requestFileData = struct.pack(&quot;!H%dsb5sb&quot; % len(downloadFileName), 1, downloadFileName.encode(&quot;UTF-8&quot;), 0, b&quot;octet&quot;,
+                                  0)
+    # 发送下载请求
+    udpsocket.sendto(requestFileData, (&quot;127.0.0.1&quot;, 69))
+
+    flag = True
+    num = 0
+    f = open(downloadFileName, &quot;w&quot;)
+    while True:
+        responsedata = udpsocket.recvfrom(1024)
+        recvData, serverInfo = responsedata
+        opNum = struct.unpack(&quot;!H&quot;, recvData[:2])
+        packetNum = struct.unpack(&quot;!H&quot;, recvData[2:4])  # 块编号
+        print(packetNum[0])
+        print(&quot;opNum%s&quot; % opNum)
+        print(serverInfo)
+        if opNum[0] == 3:
+            num = num + 1
+            # 如果一个文件特别大超过了两个字节的计算
+            if num == 65536:
+                num = 0
+            if num == packetNum[0]:
+                f.write(recvData[4:].decode(&quot;UTF-8&quot;))
+                num = packetNum[0]
+
+            ackData = struct.pack(&quot;!HH&quot;, 4, packetNum[0])
+            udpsocket.sendto(ackData, serverInfo)
+        elif opNum[0] == 5:
+            print(&quot;没有这个文件&quot;)
+            flag = False
+
+        if len(recvData) &amp;lt; 516:
+            break
+
+    if flag == True:
+        f.close()
+    else:
+        os.unlink(downloadFileName)
+
+
+if __name__ == &quot;__main__&quot;:
+    main()
+</code></pre>">tftp下载器代码
+
+from socket import *
+import struct
+import time
+import os
+
+
+def main():
+    downloadFileName = input("请输入要下载文件名字")
+    udpsocket = socket(AF_INET, SOCK_DGRAM)
+    # 组装数据
+    requestFileData = struct.pack("!H%dsb5sb" % len(downloadFileName), 1, downloadFileName.encode("UTF-8"), 0, b"octet",
+                                  0)
+    # 发送下载请求
+    udpsocket.sendto(requestFileData, ("127.0.0.1", 69))
+
+    flag = True
+    num = 0
+    f = open(downloadFileName, "w")
+    while True:
+        responsedata = udpsocket.recvfrom(1024)
+        recvData, serverInfo = responsedata
+        opNum = struct.unpack("!H", recvData[:2])
+        packetNum = struct.unpack("!H", recvData[2:4])  # 块编号
+        print(packetNum[0])
+        print("opNum%s" % opNum)
+        print(serverInfo)
+        if opNum[0] == 3:
+            num = num + 1
+            # 如果一个文件特别大超过了两个字节的计算
+            if num == 65536:
+                num = 0
+            if num == packetNum[0]:
+                f.write(recvData[4:].decode("UTF-8"))
+                num = packetNum[0]
+
+            ackData = struct.pack("!HH", 4, packetNum[0])
+            udpsocket.sendto(ackData, serverInfo)
+        elif opNum[0] == 5:
+            print("没有这个文件")
+            flag = False
+
+        if len(recvData) &lt; 516:
+            break
+
+    if flag == True:
+        f.close()
+    else:
+        os.unlink(downloadFileName)
+
+
+if __name__ == "__main__":
+    main()
+</code></pre><p>网络中的广播</p><p>192.168.1.0        ——&gt; 网络号<br>192.168.1.255    ——&gt; 广播地址</p><pre><code data-origin="<pre><code>import socket, sys
+
+dest = ('&amp;lt;broadcast&amp;gt;', 8080)
+
+s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+s.setsockopt(socket.SOL_SOCKET, socket.SO_BROADCAST, 1)
+
+s.sendto(&quot;发送方式发生&quot;.encode(&quot;gb2312&quot;), dest)
+
+print(&quot;广播已发送&quot;)
+</code></pre>">import socket, sys
+
+dest = ('&lt;broadcast&gt;', 8080)
+
+s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+s.setsockopt(socket.SOL_SOCKET, socket.SO_BROADCAST, 1)
+
+s.sendto("发送方式发生".encode("gb2312"), dest)
+
+print("广播已发送")
+</code></pre><p>Tcp</p><pre><code data-origin="<pre><code>服务端
+#服务端
+from socket import *
+
+serverSocket = socket(AF_INET, SOCK_STREAM)
+serverSocket.bind((&quot;192.168.179.1&quot;, 8080))
+
+serverSocket.listen(5)
+clientSocket, clientInfo = serverSocket.accept()
+
+recvData = clientSocket.recv(1024)
+
+print(recvData.decode(&quot;gb2312&quot;))
+clientSocket.close()
+serverSocket.close()
+</code></pre>">服务端
+#服务端
+from socket import *
+
+serverSocket = socket(AF_INET, SOCK_STREAM)
+serverSocket.bind(("192.168.179.1", 8080))
+
+serverSocket.listen(5)
+clientSocket, clientInfo = serverSocket.accept()
+
+recvData = clientSocket.recv(1024)
+
+print(recvData.decode("gb2312"))
+clientSocket.close()
+serverSocket.close()
+</code></pre><pre><code data-origin="<pre><code>客户端
+from socket import *
+
+tcpClient = socket(AF_INET, SOCK_STREAM)
+tcpClient.connect((&quot;192.168.179.1&quot;, 8080))
+
+tcpClient.send(&quot;你好 呀！&quot;.encode(&quot;gb2312&quot;))
+
+recvData = tcpClient.recv(1024)
+
+tcpClient.close()
+</code></pre>">客户端
+from socket import *
+
+tcpClient = socket(AF_INET, SOCK_STREAM)
+tcpClient.connect(("192.168.179.1", 8080))
+
+tcpClient.send("你好 呀！".encode("gb2312"))
+
+recvData = tcpClient.recv(1024)
+
+tcpClient.close()
+</code></pre><p><strong>TCP三次握手，四次挥手</strong><br><img src="img/ack-syn-tcp.png" alt="ack-syn-tcp.png"></p><p><img src="img/tcp%E5%8D%8F%E8%AE%AE.png" alt="tcp协议.png"></p><p><img src="img/%E5%9B%9B%E6%AC%A1%E6%8C%A5%E6%89%8Btcp.png" alt="四次挥手tcp.png"></p><p><strong>网络通信过程</strong><br>例如 192.168.1.1 ping 192.168.1.2<br>ping 命令发送    ICMP协议<br>获取Mac地址     ARP协议        根据ip找Mac地址<br>arp -a          查询Mac地址对应的ip地址（在一段时间清空）</p><p>交换机：<br>只能连接同一网段下的设备。<br>路由器：<br>连接多个逻辑上分开的网络（不同网段，一段一段的查询）。</p><p>Mac地址：在两个设备之间通信时在变化<br>而IP地址：在整个通信过程中都不会发生任何变化</p><p>ip：标记逻辑上的地址<br>Mac：标记实际转发数据时的设备地址<br>netmask:和ip地址一个来确定网络号<br>默认网关：发送的ip不在同一个网段内，那么会把这个数据转发给默认网关（路由器的ip地址）<br>DNS服务器:域名解析成ip</p><p><img src="img/luyou.png" alt="luyou.png"></p><p><img src="img/luyouzhixiang.png" alt="luyouzhixiang.png"></p><p>访问百度的底层步骤<br>1.先要解析出baidu的对应的ip地址</p><ul>
+<li>1.先要知道默认网关的Mac（使用arp获取默认网关的地址）</li><li>2.组织数据发送给默认网关（ip还是dns服务器的ip，但是mac地址是默认默认网关的mac地址）</li><li>3.默认网关具有转发数据的能力，把数据转发给路由器</li><li>4.路由器根据自己的路由协议，来选择一个合适较快的路径转发给目的的网关</li><li>5.目的网关(dns服务器所在的网关)，把数据转发给dns服务器</li><li>6.dns解析出baidu对应的ip地址，并发给的原路返回给请求这个域名client</li></ul><p>2.得到baidu对应的ip之后，发送tcp的3次握手，进行连接<br>3.使用http协议发送请求数据给web服务器<br>4.web服务器接受请求，返回对应的结果<br>5.接受数据渲染网页</p><p>TTL         表示经过多少个路由<br>MSL            表示一个数据包在网络上存活的时间</p><p>listen的参数和操作系统有关！</p><p>常见网络攻击<br>1.tcp半链接攻击<br>典型的就是Dos攻击<br>效果就是服务器TCP链接资源耗尽，停止响应正常的TCP链接请求。</p><p>客户端连接服务器时，收到服务器响应，但有没有给服务器确定的信息，导致服务器一直等待。</p><p>2.dns攻击<br>dns服务器被劫持<br>dns欺骗</p><p>nslookup     查看域名对应的IP</p><p>3.arp攻击</p><p>只有公网才能上网<br><img src="img/%E5%AE%B6%E5%BA%AD%E4%B8%8A%E7%BD%91.png" alt="家庭上网.png"></p><p><strong>单任务非阻塞</strong></p><pre><code data-origin="<pre><code># 单进程非阻塞式
+from socket import *
+
+serverSocket = socket(AF_INET, SOCK_STREAM)
+
+localAddr = (&quot;&quot;, 7788)
+serverSocket.bind(localAddr)
+
+# 让这个socket变为非阻塞
+serverSocket.setblocking(False)
+
+serverSocket.listen(100)
+
+clientAddrList = []
+
+while True:
+    try:
+        newSocket, clientAddr = serverSocket.accept()
+    except:
+        pass
+    else:
+        print(&quot;一个新客户端%s&quot; % str(clientAddr))
+        newSocket.setblocking(False)
+        clientAddrList.append((newSocket, clientAddr))
+
+    for clientSocket, clientAddr in clientAddrList:
+        try:
+            recvData = clientSocket.recv(1024)
+        except:
+            pass
+        else:
+            if len(recvData) &amp;gt; 0:
+                print(&quot;%s:%s&quot; % (str(clientAddr), recvData.decode(&quot;gb2312&quot;)))
+            else:
+                clientSocket.close()
+                clientAddrList.remove((clientSocket, clientAddr))
+</code></pre>"># 单进程非阻塞式
+from socket import *
+
+serverSocket = socket(AF_INET, SOCK_STREAM)
+
+localAddr = ("", 7788)
+serverSocket.bind(localAddr)
+
+# 让这个socket变为非阻塞
+serverSocket.setblocking(False)
+
+serverSocket.listen(100)
+
+clientAddrList = []
+
+while True:
+    try:
+        newSocket, clientAddr = serverSocket.accept()
+    except:
+        pass
+    else:
+        print("一个新客户端%s" % str(clientAddr))
+        newSocket.setblocking(False)
+        clientAddrList.append((newSocket, clientAddr))
+
+    for clientSocket, clientAddr in clientAddrList:
+        try:
+            recvData = clientSocket.recv(1024)
+        except:
+            pass
+        else:
+            if len(recvData) &gt; 0:
+                print("%s:%s" % (str(clientAddr), recvData.decode("gb2312")))
+            else:
+                clientSocket.close()
+                clientAddrList.remove((clientSocket, clientAddr))
+</code></pre><p><strong>select版的TCP服务器</strong></p><pre><code data-origin="<pre><code># tcp server select版
+import socket
+import select
+import sys
+
+serverSocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+
+localAddr = (&quot;&quot;, 7788)
+serverSocket.bind(localAddr)
+serverSocket.listen(100)
+
+inputs = [serverSocket, sys.stdin]
+running = True
+
+while True:
+    readable, writeable, exceptional = select.select(inputs, [], [])
+    for sock in readable:
+        if sock == socket:
+            conn, addr = serverSocket.accept()
+            inputs.append(conn)
+        # 监听键盘的输入
+        elif sock == sys.stdin:
+            cmd = sys.stdin.readline()
+            running = False
+            break
+        # 有数据到达
+        else:
+            data = sock.recv(1024)
+            if data:
+                sock.send(data)
+            else:
+                inputs.remove(sock)
+                sock.close()
+
+    #如果检查用户输入敲击键盘，那么就退出
+    if not running:
+        break
+
+serverSocket.close()
+
+select 对进程监视的文件描述的数量存在限制默认为1024
+</code></pre>"># tcp server select版
+import socket
+import select
+import sys
+
+serverSocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+
+localAddr = ("", 7788)
+serverSocket.bind(localAddr)
+serverSocket.listen(100)
+
+inputs = [serverSocket, sys.stdin]
+running = True
+
+while True:
+    readable, writeable, exceptional = select.select(inputs, [], [])
+    for sock in readable:
+        if sock == socket:
+            conn, addr = serverSocket.accept()
+            inputs.append(conn)
+        # 监听键盘的输入
+        elif sock == sys.stdin:
+            cmd = sys.stdin.readline()
+            running = False
+            break
+        # 有数据到达
+        else:
+            data = sock.recv(1024)
+            if data:
+                sock.send(data)
+            else:
+                inputs.remove(sock)
+                sock.close()
+
+    #如果检查用户输入敲击键盘，那么就退出
+    if not running:
+        break
+
+serverSocket.close()
+
+select 对进程监视的文件描述的数量存在限制默认为1024
+</code></pre>
+
+<footer style="position:fixed; font-size:.8em; text-align:right; bottom:0px; margin-left:-25px; height:20px; width:100%;">generated by <a href="http://pad.haroopress.com" target="_blank">haroopad</a></footer>
+</body>
+</html>
